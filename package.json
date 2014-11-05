@@ -1,12 +1,14 @@
 {
-  "name" : "abbajs",
-  "description" : "A/B test analysis in Javascript",
-  "homepage" : "http://github.com/thii/abbajs",
-  "version": "0.1.1",
-  "licenses" : [{
-    "type" : "BSD-3-Clause",
-    "url" : "http://opensource.org/licenses/BSD-3-Clause"
-  }],
+  "name": "abbajs",
+  "description": "A/B test analysis in Javascript",
+  "homepage": "http://github.com/thii/abbajs",
+  "version": "0.1.2",
+  "licenses": [
+    {
+      "type": "BSD-3-Clause",
+      "url": "http://opensource.org/licenses/BSD-3-Clause"
+    }
+  ],
   "dependencies": {
     "jStat": ">= 1.0.7"
   },
@@ -20,7 +22,7 @@
   "scripts": {
     "test": "node test/run.js"
   },
-  "main" : "index.js",
+  "main": "index.js",
   "engines": {
     "node": ">= 0.10.0"
   }
