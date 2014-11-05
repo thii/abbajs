@@ -9,15 +9,15 @@ A/B test analysis library in Javascript
   * [Normal Distribution](#normal-distribution)
     * [Density](#density)
     * [CDF](#cdf)
-    * [Survial function](#survial-function)
+    * [Survival function](#survival-function)
     * [Inverse CDF](#inverse-cdf)
-    * [Inverse survival funtion](#inverse-survival-funtion)
+    * [Inverse survival function](#inverse-survival-function)
   * [Binomial Distribution](#binomial-distribution)
-    * [Mass function](#mass-funtion)
+    * [Mass function](#mass-function)
     * [CDF](#cdf-1)
-    * [Survial function](#survial-function-1)
+    * [Survival function](#survival-function-1)
     * [Inverse CDF](#inverse-cdf-1)
-    * [Inverse survival funtion](#inverse-survival-funtion-1)
+    * [Inverse survival function](#inverse-survival-function-1)
   * [Computes Experiment](#computes-experiment)
 * [License](#license)
 
@@ -47,7 +47,7 @@ var result = normal.cdf(3);
 // 0.8413447460685429
 ```
 
-#### Survial function
+#### Survival function
 ```javascript
 var normal = new Abba.NormalDistribution(1, 2);
 var result = normal.survival(5);
@@ -61,7 +61,7 @@ var result = normal.inverseCdf(0.95);
 // 4.289707253902945
 ```
 
-#### Inverse survival funtion
+#### Inverse survival function
 ```javascript
 var normal = new Abba.NormalDistribution(1, 2);
 var result = normal.inverseCdf(0.75);
@@ -69,7 +69,7 @@ var result = normal.inverseCdf(0.75);
 ```
 
 ### Binomial Distribution
-#### Mass funtion
+#### Mass function
 ```javascript
 var binomial = new Abba.BinomialDistribution(1000, 0.3);
 var result = binomial.mass(300);
@@ -83,7 +83,7 @@ var result = binomial.cdf(310);
 // 0.7656417087768965
 ```
 
-#### Survial funtion
+#### Survival function
 ```javascript
 var binomial = new Abba.BinomialDistribution(1000, 0.3);
 var result = binomial.survival(340);
@@ -97,7 +97,7 @@ var result = binomial.inverseCdf(0.5);
 // 300
 ```
 
-#### Inverse survival funtion
+#### Inverse survival function
 ```javascript
 var binomial = new Abba.BinomialDistribution(1000, 0.3);
 var result = binomial.inverseSurvival(0.75);
