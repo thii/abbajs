@@ -15,7 +15,7 @@
     "url": "https://github.com/thii/abbajs"
   },
   "scripts": {
-    "test": "./node_modules/jasmine/bin/jasmine"
+    "test": "./node_modules/jasmine/bin/jasmine.js"
   },
   "main": "index.js",
   "engines": {
