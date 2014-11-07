@@ -22,6 +22,7 @@ A/B test analysis library in JavaScript
     * [Inverse CDF](#inverse-cdf-1)
     * [Inverse survival function](#inverse-survival-function-1)
   * [Computes Experiment](#computes-experiment)
+* [Running Tests](#running-tests)
 * [License](#license)
 
 
@@ -131,6 +132,12 @@ var result = experiment.getResults(50, 150);
   pValue: 0.05749442762442982 
 }
 */
+```
+
+## Running Tests
+```bash
+npm install
+npm test
 ```
 
 ## License
