@@ -13,7 +13,7 @@
     "jStat": ">= 1.0.7"
   },
   "devDependencies": {
-    "nodeunit": "latest"
+    "jasmine": "latest"
   },
   "repository": {
     "type": "git",
