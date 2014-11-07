@@ -3,7 +3,7 @@
 [![Version](http://img.shields.io/npm/v/abbajs.svg?style=flat)](https://www.npmjs.org/package/abbajs)
 [![License](http://img.shields.io/npm/l/abbajs.svg?style=flat)](http://opensource.org/licenses/BSD-3-Clause)
 
-A/B test analysis library in Javascript
+A/B test analysis library in JavaScript
 
 ## Table of Contents
 
@@ -36,6 +36,8 @@ $ npm install abbajs
 ## Usage
 
 ### Normal Distribution
+Create a normal distribution analysis with `Abba.NormalDistribution(mean, standardDeviation)`. Available functions are listed below.
+
 #### Density
 ```javascript
 var normal = new Abba.NormalDistribution(1, 2);
@@ -72,6 +74,8 @@ var result = normal.inverseCdf(0.75);
 ```
 
 ### Binomial Distribution
+Create a binomial distribution analysis with `Abba.BinomialDistribution(numTrials, probability)`. Available functions are listed below.
+
 #### Mass function
 ```javascript
 var binomial = new Abba.BinomialDistribution(1000, 0.3);
@@ -108,6 +112,8 @@ var result = binomial.inverseSurvival(0.75);
 ```
 
 ### Computes Experiment
+Create an experiment with `Abba.Experiment(numVariations, baselineNumSuccesses, baselineNumTrials, intervalAlpha)`. Get the result of a specific test with `experiment.getResults(numSuccesses, numTrials)`
+
 ```javascript
 var experiment = new Abba.Experiment(3, 20, 100, 0.05);
 var result = experiment.getResults(50, 150);
