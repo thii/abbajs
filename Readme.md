@@ -1,4 +1,7 @@
 # abbajs
+[![CI Status](http://img.shields.io/travis/thii/abbajs.svg?style=flat)](https://travis-ci.org/thii/abbajs)
+[![Version](http://img.shields.io/npm/v/abbajs.svg?style=flat)](https://www.npmjs.org/package/abbajs)
+[![License](http://img.shields.io/npm/l/abbajs.svg?style=flat)](http://opensource.org/licenses/BSD-3-Clause)
 
 A/B test analysis library in Javascript
 
