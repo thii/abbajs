@@ -34,6 +34,12 @@ As a Node.js module
 $ npm install abbajs
 ```
 
+As a component
+
+```bash
+$ component install thii/abbajs
+```
+
 ## Usage
 
 ### Normal Distribution
