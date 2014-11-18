@@ -1,6 +1,8 @@
 var jStat = require('jStat').jStat;
 
-this.Abba = (function(Abba, jStat) {
+var Abba = function() {};
+
+module.exports.Abba = Abba;
 
 // Friendly wrapper over jStat's normal distribution functions.
 Abba.NormalDistribution = function(mean, standardDeviation) {
@@ -302,6 +304,3 @@ Abba.Experiment.prototype = {
         };
     }
 };
-
-return Abba;
-}(this.Abba || {}, jStat));
